@@ -4,7 +4,7 @@ on:
   schedule:
     
     # Run every 8 minutes from 00:00 to 03:59 UTC
-    - cron: '*/10 0-3 * * *'
+    - cron: '* 0-3 * * *'
     # Run at 04:00 UTC
     - cron: '0 4 * * *'
 
