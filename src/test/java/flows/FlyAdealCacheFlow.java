@@ -60,6 +60,7 @@ public class FlyAdealCacheFlow{
         	days = 5;
             skipdays = 4;
         }
+
 	    
 		RequestSpecification request = RestAssured.given();
 		request.header("Content-Type", "text/json");
